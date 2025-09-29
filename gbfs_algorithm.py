@@ -4,7 +4,7 @@ import heapq
 from collections import defaultdict
 
 # Import file dan membaca file csv jarak cilegon ke banyuwangi
-filejarak = "/content/estimasi_jarak.csv"  # sesuaikan path setelah upload
+filejarak = "estimasi_jarak.csv"  # sesuaikan path setelah upload
 df = pd.read_csv(filejarak, delimiter=";")
 
 # === 2. Bangun graph (adjacency list) ===
